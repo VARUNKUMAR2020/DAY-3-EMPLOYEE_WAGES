@@ -5,6 +5,10 @@ public class employee
     {
         System.out.println( "WELCOME TO THE COMPANY" );
     	int fulltime = 1;
+    	int totalHrs = 0;
+		int day = 1;
+    	while(day <= 20 && totalHrs<=100) {
+		day++;
     	double empcheck = Math.floor(Math.random() * 10)% 2;
     	if (empcheck == fulltime)
     		System.out.println("Employee is Present");
@@ -52,6 +56,9 @@ public class employee
                
                 	System.out.println("Employee Wage:" + empWage);
                     System.out.println("Toatl Employee Wage: "+ totalEmpWage);
+           
     	
     }
+    }
 }
+
