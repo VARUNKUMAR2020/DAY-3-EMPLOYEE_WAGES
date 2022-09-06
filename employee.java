@@ -36,8 +36,21 @@ public class employee
     	else
         		empHrs = 0;
         	empWage = empHrs*empRatePH;	
-        	
+        	    int empCheck=0;
         		System.out.println("Employee Wage:" + empWage);
+        		switch (empCheck) {
+            	case 1:
+            		empHrs = 4;
+            		break;
+            	case 2:
+            		empHrs = 8;
+            		break;
+            	default:
+            		empHrs = 0;
+            	}
+            	empWage = empHrs*empRatePH;	
+            	
+            		System.out.println("Employee Wage:" + empWage);
     	
     }
 }
