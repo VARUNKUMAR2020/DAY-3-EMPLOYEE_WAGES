@@ -14,6 +14,19 @@ public class employee
     	if (empcheck == fulltime)
     		System.out.println("Employee is Present");
     	else
-    		System.out.println("Employee is Abscent");
+    		System.out.println("Employee is Absent");
+    	int empRatePH = 20;
+    	int empHrs = 0;
+    	int empWage = 0;
+    	if (empcheck == fulltime) 
+    	{
+    		empHrs = 8;
+    	}
+    	else 
+    	{
+    		empHrs = 0;
+    	    empWage = empHrs*empRatePH;	
+    	    System.out.println("Employee Wage:" + empWage);
+    	}
     }
 }
