@@ -43,9 +43,15 @@ public class employee
             	default:
             		empHrs = 0;
             	}
+        		 int totalEmpWage=0;
             	empWage = empHrs*empRatePH;	
             	
             		System.out.println("Employee Wage:" + empWage);
+            		empWage = empHrs*empRatePH;
+                	totalEmpWage += empWage;
+               
+                	System.out.println("Employee Wage:" + empWage);
+                    System.out.println("Toatl Employee Wage: "+ totalEmpWage);
     	
     }
 }
