@@ -32,11 +32,6 @@ public class employee
         		empHrs = 4;
         	else if(empcheck == parttime)
     		empHrs = 8;
-    	else
-        		empHrs = 0;
-        	empWage = empHrs*empRatePH;	
-        	    int empCheck=0;
-        		System.out.println("Employee Wage:" + empWage);
         		switch (empCheck) {
             	case 1:
             		empHrs = 4;
